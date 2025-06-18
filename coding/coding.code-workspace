@@ -1,0 +1,16 @@
+
+
+
+{
+  "folders": [
+    {
+      "path": "/data/coding"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/*.code-workspace": true
+    },
+    "workbench.startupEditor": "readme"
+  }
+}
