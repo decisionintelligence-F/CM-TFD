@@ -1,12 +1,11 @@
-CM-TFD：通道掩码引导的时频解耦建模框架用于多变量时间序列预测
+CM-TFD：基于通道掩码的时频解耦多变量时序预测
+（Channel-Masked Time-Frequency Disentanglement in Multivariate Time Series Forecasting）
 
-（A channel mask-guided time-frequency decoupling modeling framework for multivariate time series prediction）
-
-此代码是我们的论文 CM-TFD：通道掩码引导的时频解耦建模框架用于多变量时间序列预测 的 PyTorch 实现。
+此代码是我们的论文CM-TFD：基于通道掩码的时频解耦多变量时序预测 的 PyTorch 实现。
 
 如果您觉得此项目有帮助，请不要忘记给它一个⭐星标以表示您的支持。谢谢！
 
-CM-TFD（A channel mask-guided time-frequency decoupling modeling framework for multivariate time series prediction）采用主-辅协同双分支结构：主分支集成混合专家建模与时频级联解耦机制，聚焦关键时序特征提取从而提升对复杂时序依赖关系的建模能力；辅分支构建可学习通道掩码，从原始输入中筛除冗余通道，并调控主分支的建模路径以提升结构稀疏性与相关性。此外，在训练过程中，同时利用时频域分析来增强预测范式，并通过动态调节时频域损失权重，有效缓解标签自相关导致的监督偏差。
+CM-TFD（Channel-Masked Time-Frequency Disentanglement in Multivariate Time Series Forecasting）采用主-辅协同双分支结构：主分支集成混合专家建模与时频级联解耦机制，聚焦关键时序特征提取从而提升对复杂时序依赖关系的建模能力；辅分支构建可学习通道掩码，从原始输入中筛除冗余通道，并调控主分支的建模路径以提升结构稀疏性与相关性。此外，在训练过程中，同时利用时频域分析来增强预测范式，并通过动态调节时频域损失权重，有效缓解标签自相关导致的监督偏差。
 
 快速入门
 
